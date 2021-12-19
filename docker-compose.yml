@@ -2,11 +2,6 @@ version: '3.4'
 
 services:
   httpserver:
-    image: httpserver
-    build:
-      context: .
-      dockerfile: ./Dockerfile
-    environment:
-      NODE_ENV: production
+    build: . 
     ports:
-      - 3000:3000
+     - "80:3000"
