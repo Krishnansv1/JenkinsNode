@@ -4,6 +4,9 @@
 # https://aka.ms/yaml
 
 trigger: none
+- task: Npm@1
+  inputs:
+    command: 'install'
 
 pool:
   name: local
