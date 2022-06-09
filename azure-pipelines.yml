@@ -6,7 +6,7 @@
 trigger: none
 
 pool:
- name: local
+  name: local
 
 steps:
 - script: echo Hello, world!
